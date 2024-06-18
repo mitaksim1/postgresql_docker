@@ -1,0 +1,20 @@
+{
+  "name": "postgres_docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "typescript": "^5.4.5"
+  }
+}
